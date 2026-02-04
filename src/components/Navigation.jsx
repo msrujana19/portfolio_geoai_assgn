@@ -23,20 +23,40 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={scrolled ? 'scrolled' : ''}>
+    <nav className={scrolled ? 'scrolled' : ''} aria-label="Main navigation">
       <div className="nav-container">
-        <div className="logo">SM</div>
+        <div className="logo" aria-label="Homepage">SM</div>
+
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-          <li><a onClick={() => scrollToSection('hero')}>Home</a></li>
-          <li><a onClick={() => scrollToSection('tech-stack')}>Tech Stack</a></li>
-          <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>
-          <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+          <li>
+            <a href="#hero" onClick={() => scrollToSection('hero')}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#tech-stack" onClick={() => scrollToSection('tech-stack')}>
+              Tech Stack
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={() => scrollToSection('projects')}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={() => scrollToSection('contact')}>
+              Contact
+            </a>
+          </li>
         </ul>
-        <button 
+
+        <button
           className="mobile-menu-btn"
+          aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={mobileMenuOpen}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+          {mobileMenuOpen ? '✕' : '☰'}
         </button>
       </div>
     </nav>

@@ -1,5 +1,5 @@
 import './Hero.css';
-import profilePhoto from "../photo/profile.jpg";
+import profilePhoto from "../photo/profile.webp";
 
 const Hero = () => {
   const scrollToSection = (id) => {
@@ -33,7 +33,7 @@ const Hero = () => {
               View My Projects <i className="fas fa-arrow-right"></i>
             </a>
             <a href="/resume.pdf" className="btn btn-secondary">
-              Download Resume <i className="fas fa-download"></i>
+              Download Resume 
             </a>
           </div>
         </div>
@@ -41,7 +41,10 @@ const Hero = () => {
           <div className="hero-image-bg"></div>
           <img 
   src={profilePhoto}
-  alt="My professional headshot"
+  alt="Profile photo"
+  loading="lazy"
+  width="300"
+  height="400"
   className="hero-image"
 />
         </div>

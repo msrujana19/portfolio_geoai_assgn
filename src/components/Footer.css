@@ -29,12 +29,19 @@ footer {
   justify-content: center;
   color: var(--text);
   text-decoration: none;
-  font-size: 1.25rem;
   transition: all 0.3s ease;
+}
+
+/* 🔥 IMPORTANT FIX FOR REACT-ICONS */
+.social-link svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
 }
 
 .social-link:hover {
   background: var(--gradient);
+  color: #ffffff;
   transform: translateY(-3px);
   border-color: transparent;
 }
