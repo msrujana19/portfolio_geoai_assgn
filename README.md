@@ -1,16 +1,37 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my personal portfolio website built using **React** and **Vite**.  
+The website showcases my academic projects, technical skills, and areas of interest, with a focus on **AI, Machine Learning, and Web Development**.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Single Page Application (SPA) built with React
+- Clean and responsive user interface
+- Dedicated sections for projects, skills, and contact information
+- Live project links and GitHub repositories
+- Mobile-friendly design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-## React Compiler
+## 📂 Projects Highlighted
+- Brain Ultrasound Abnormality Detection (Major Project)
+- Sentiment Analysis Web Application
+- Movie Recommendation System
+- sheCares – Women’s Health Support Platform
+- Interactive Digital Flipbook
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
+(Will be updated after deployment)  
+👉 https://your-vercel-link.vercel.app
 
-## Expanding the ESLint configuration
+## 📬 Contact
+- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+This portfolio is actively maintained and will be updated as I continue learning and building new projects.
