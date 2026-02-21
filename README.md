@@ -26,11 +26,11 @@ The website showcases my academic projects, technical skills, and areas of inter
 
 ## 🌐 Live Demo
 (Will be updated after deployment)  
-👉 https://your-vercel-link.vercel.app
+👉 [https://your-vercel-link.vercel.app](https://portfoliogeoaiassgn.vercel.app/)
 
 ## 📬 Contact
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+- GitHub: [https://github.com/YOUR_USERNAME](https://github.com/msrujana19)
+- LinkedIn: [https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/srujana-m19/)
 
 ---
 
