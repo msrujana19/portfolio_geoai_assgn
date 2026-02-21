@@ -10,6 +10,9 @@ function App() {
   return (
     <>
       <div className="animated-bg"></div>
+      <div className="p-4 bg-blue-600/20 text-center text-sm font-medium text-blue-400">
+        Tailwind CSS v4 is Active
+      </div>
       <Navigation />
       <Hero />
       <TechStack />
